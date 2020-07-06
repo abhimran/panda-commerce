@@ -1,0 +1,77 @@
+
+/* @media (min-width: 1200px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { ... } */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .item3, .item1, .item2, h3{
+        font-size: 14px;
+    }
+    .input-form{
+        width: 80%;
+        margin: 0 auto;
+        border: none;
+    }
+}
+/*  Small Device Responsive  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .item1, .item2, .item3{
+        margin: 10px;
+    }
+    .shoe-1 h2{
+        font-size: 18px;
+    }
+    .shoe-1 p{
+        font-size: 14px; 
+    }
+    .shoe-1 h3{
+        font-size: 18px;
+        padding-bottom: 14px;
+    }
+    .shoe-1 a{
+        font-size: 14px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .input-form{
+        width: 90%;
+        margin: 0 auto;
+        border: none;
+    }
+ }
+
+ /* Extra Small Device  */
+@media (max-width: 575.98px) {
+    .banner-txt h1{
+        font-size: 20px;
+    }
+    .banner-txt p{
+        font-size: 14px;
+    }
+    .banner-txt h2{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .banner-txt a{
+        font-size: 15px;
+    }
+    .carousel-item img{
+        margin-top: 15px;
+        width: 80%!important;
+    }
+    .item1, .item2, .item3{
+        margin: 10px;
+    }
+    .email-text h2{
+        font-size: 20px;
+    }
+    .email-text p{
+        font-size: 14px;
+    }
+    .input-form{
+        width: 90%;
+        margin: 0 auto;
+        border: none;
+    }
+}

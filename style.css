@@ -1,0 +1,152 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+a{
+    text-decoration: none!important;
+}
+/* COmmon Css End  */
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+/* Navbar Css End  */
+
+.carousel-indicators li{
+    background-color: #FF136F;
+}
+.carousel-inner{
+    background: #FEEAE9;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.banner-txt h1{
+    color: #1F1F1F;
+    font-size: 41px;
+    font-weight: 500;
+}
+.banner-txt p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 300;
+}
+.banner-txt h2{
+    color: #FF136F;
+    font-size: 41px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.banner-txt a{
+    padding: 10px 20px;
+    color: #f2f2f2;
+    background-color: #FF136F;
+    border-radius: 5px;
+}
+
+/* Banner part End here  */
+
+#shoes{
+    background-color: #F8F8F8;
+}
+
+.item1, .item2, .item3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.item1{
+    background-image: linear-gradient(to right,#ee1669, #d12768);
+}
+
+.item2{
+    background-image: linear-gradient(to right,#5716ee, #4a25a0);
+}
+
+.item3{
+    background-image: linear-gradient(to right,#ee9816, #df9610);
+}
+.shoe-1 h2{
+    font-size: 24px;
+    color: #1F1F1F;
+    font-weight: 500;
+}
+.shoe-1 p{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;  
+}
+.shoe-1 h3{
+    font-size: 24px;
+    color: #1F1F1F;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.shoe-1 a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/* Shoes part end here  */
+
+#backpack{
+    background-color: #F8F8F8;
+}
+/* backpack part end here  */
+
+.email-text{
+    background: #FEEAE9;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.email-text h2{
+    font-size: 30px;
+    color: #1F1F1F;
+    font-weight: 500;  
+}
+.email-text p{
+    font-size: 18px;
+    color: #707070;
+    font-weight: 300;  
+}
+.input-form{
+    width: 35%;
+    margin: 0 auto;
+    border: none;
+}
+.input-group-text2{
+    background-color:  #FF136F;
+    color: #fff;
+}
+.form-control2{
+    border: none;
+}
+.form-control2:focus{
+    box-shadow: none;
+}
+
+/*  Email part end here  */
+
+#footer h3{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0;
+}
